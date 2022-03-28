@@ -1,4 +1,4 @@
-#include <TroykaDHT.h>  //TroykaDHT
+#include <TroykaDHT.h>  // TroykaDHT
 DHT dht(12, DHT22);     // pin 12 and DTH22 type
 
 float humi = 0.0;       // variable for humidity
