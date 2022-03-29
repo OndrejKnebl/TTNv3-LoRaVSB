@@ -1,6 +1,6 @@
 # DHT22
 
-Programs for temperature and humidity sensor using Adafruit Feather 32u4 and DHT22.
+Programs for temperature and humidity sensor using Adafruit Feather 32u4 LoRa Radio and DHT22.
 
 ## Sending measured values to TTS
 
