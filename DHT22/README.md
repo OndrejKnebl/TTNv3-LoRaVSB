@@ -13,4 +13,4 @@ We have prepared four programs for measuring temperature and humidity. The first
 - Averages of measured values (low power mode)
 
 
-More information on the site:  https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22
+More information on the site (will be added 10. 4. 2022):  https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22
