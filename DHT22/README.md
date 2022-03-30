@@ -14,3 +14,9 @@ We have prepared four programs for measuring temperature and humidity. The first
 
 
 More information on the site (will be added 10. 4. 2022):  https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22
+
+
+## Reference
+https://github.com/mcci-catena/arduino-lmic
+https://github.com/ElectronicCats/CayenneLPP
+https://github.com/rocketscream/Low-Power
