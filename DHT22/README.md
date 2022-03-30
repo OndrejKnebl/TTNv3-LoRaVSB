@@ -9,7 +9,7 @@ We have prepared four programs for measuring temperature and humidity. The first
 ### Programs
 - Current measured values
 - Averages of measured values
-- Current measured values (low power mode) - (will be added soon)
+- Current measured values (low power mode)
 - Averages of measured values (low power mode) - (will be added soon)
 
 
