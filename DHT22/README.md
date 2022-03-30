@@ -17,6 +17,6 @@ More information on the site (will be added 10. 4. 2022):  https://lora.vsb.cz/i
 
 
 ## Reference
-https://github.com/mcci-catena/arduino-lmic
-https://github.com/ElectronicCats/CayenneLPP
-https://github.com/rocketscream/Low-Power
+- https://github.com/mcci-catena/arduino-lmic
+- https://github.com/ElectronicCats/CayenneLPP
+- https://github.com/rocketscream/Low-Power
