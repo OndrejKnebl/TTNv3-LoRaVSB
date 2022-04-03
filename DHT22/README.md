@@ -13,7 +13,7 @@ We have prepared four programs for measuring temperature and humidity. The first
 - Averages of measured values with low power mode
 
 ### More information
-- About sensor and sensor assembly on the site (will be added 10. 4. 2022): <a href="https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22" target="_blank">https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22</a>
+- About sensor and sensor assembly on the site (will be added 10. 4. 2022): <a href="https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22" target="_blank"  rel="noopener noreferrer">https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22</a>
 - About Adafruit Feather 32u4 LoRa Radio setup on the site: <a href="https://lora.vsb.cz/index.php/adafruit-feather-32u4/" target="_blank">https://lora.vsb.cz/index.php/adafruit-feather-32u4/</a>
 
 ## Reference
