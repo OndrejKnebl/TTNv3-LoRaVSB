@@ -8,7 +8,7 @@ We have prepared four programs for measuring temperature. The first program send
 
 ### Programs
 - Current measured values
-- Averages of measured values - will be added
+- Averages of measured values
 - Current measured values with low power mode - will be added
 - Averages of measured values with low power mode - will be added
 
