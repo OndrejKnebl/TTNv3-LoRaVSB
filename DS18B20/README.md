@@ -10,7 +10,7 @@ We have prepared four programs for measuring temperature. The first program send
 - Current measured values
 - Averages of measured values
 - Current measured values with low power mode
-- Averages of measured values with low power mode - will be added
+- Averages of measured values with low power mode
 
 ### More information
 - About sensor and sensor assembly on the site (will be added 10. 4. 2022): https://lora.vsb.cz/index.php/temperature-sensor-ds18b20
