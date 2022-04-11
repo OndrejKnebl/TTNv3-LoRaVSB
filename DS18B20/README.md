@@ -13,7 +13,7 @@ We have prepared four programs for measuring temperature. The first program send
 - Averages of measured values with low power mode
 
 ### More information
-- About sensor and sensor assembly on the site (will be added 10. 4. 2022): https://lora.vsb.cz/index.php/temperature-sensor-ds18b20
+- About sensor and sensor assembly on the site: https://lora.vsb.cz/index.php/temperature-sensor-ds18b20
 - About Adafruit Feather 32u4 LoRa Radio setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-32u4/
 
 ## Reference
