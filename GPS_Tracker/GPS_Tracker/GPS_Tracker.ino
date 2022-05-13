@@ -186,7 +186,7 @@ void do_send(osjob_t* j){
     
     }else if(digitalRead(switch_charging) == LOW){              // Charging only
         blinkLEDCharging();    
-        LowPower.powerDown(SLEEP_1S, ADC_OFF, BOD_OFF);         // Sleep time = 1 seconds
+        LowPower.powerDown(SLEEP_15MS, ADC_OFF, BOD_OFF);       // Sleep time = 15 milliseconds
         blinkLEDCharging();
         LowPower.powerDown(SLEEP_4S, ADC_OFF, BOD_OFF);         // Sleep time = 4 seconds
         os_setCallback(&sendjob, do_send);
