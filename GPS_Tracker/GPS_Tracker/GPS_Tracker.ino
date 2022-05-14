@@ -167,6 +167,9 @@ void build_packet(){
 void do_send(osjob_t* j){
     
     if (digitalRead(switch_tracking) == LOW){                   // Tracking and charging
+        turnOffLEDs();
+        blinkLEDTracking();
+        LowPower.powerDown(SLEEP_15MS, ADC_OFF, BOD_OFF);       // Sleep time = 15 milliseconds
         blinkLEDTracking();
         
         if(!(LMIC.opmode & OP_TXRXPEND)){                       // Check if there is not a current TX/RX job running
