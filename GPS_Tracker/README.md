@@ -9,7 +9,7 @@ We have prepared program for sending latitude, longitude, altitude and hdop to T
 
 ## More information
 - About NEO-6M and GPS tracker assembly on the site: https://lora.vsb.cz/index.php/gps_tracker/
-- About using GPS tracker as TTN mapper on the site:
+- About using GPS tracker as TTN mapper on the site: https://lora.vsb.cz/index.php/ttn-mapper/
 - About Adafruit Feather 32u4 LoRa Radio setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-32u4/
 
 ## Reference
