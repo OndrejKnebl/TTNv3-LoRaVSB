@@ -16,3 +16,5 @@ We have prepared program for sending latitude, longitude, altitude and hdop to T
 - https://github.com/mcci-catena/arduino-lmic
 - https://github.com/mikalhart/TinyGPSPlus
 - https://github.com/rocketscream/Low-Power
+
+- GPS Tracker box - BERGER, Matěj. GPS-tracker s podporou LoRaWAN [online]. Ostrava, 2021 [cit. 2022-05-20]. From: http://hdl.handle.net/10084/144098. Bakalářská práce. Vysoká škola báňská – Technická univerzita Ostrava.
