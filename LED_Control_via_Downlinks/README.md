@@ -1,7 +1,9 @@
 # LED control via downlinks - will be added soon
-
 Program for controlling the built-in LED via downlinks using the Adafruit Feather 32u4 RFM95 LoRa Radio.
 
+## Note
+This is only a demonstration of the functionality of the downlinks. Don’t send more than 10 downlinks per day per node (see Fair Use Policy below).
+- https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/#fair-use-policy
 
 ## More information
 - About LED control via downlinks on the site: https://lora.vsb.cz/index.php/led-control-via-downlinks/
