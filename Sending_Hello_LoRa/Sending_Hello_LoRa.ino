@@ -14,7 +14,7 @@
  * including, but not limited to, copying, modification and redistribution.
  * NO WARRANTY OF ANY KIND IS PROVIDED.
  * 
- * Modified for Hello, LoRa!, 14. 3. 2022
+ * Modified for Hello, LoRa!, 23. 6. 2022
  *******************************************************************************/
 
 #include <lmic.h>
