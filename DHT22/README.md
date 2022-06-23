@@ -12,6 +12,9 @@ We have prepared four programs for measuring temperature and humidity. The first
 - Current measured values with low power mode
 - Averages of measured values with low power mode
 
+### Activation
+- ABP
+
 ### More information
 - About sensor and sensor assembly on the site: https://lora.vsb.cz/index.php/temperature-and-humidity-sensor-dht22
 - About Adafruit Feather 32u4 LoRa Radio setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-32u4/
