@@ -6,6 +6,8 @@ Program for GPS tracker using Adafruit Feather 32u4 LoRa Radio and NEO-6M. You c
 
 We have prepared program for sending latitude, longitude, altitude and hdop to TTS every +-15 seconds.
 
+## Activation
+- ABP
 
 ## More information
 - About NEO-6M and GPS tracker assembly on the site: https://lora.vsb.cz/index.php/gps_tracker/
