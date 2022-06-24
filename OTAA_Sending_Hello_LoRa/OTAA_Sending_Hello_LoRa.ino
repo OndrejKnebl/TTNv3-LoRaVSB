@@ -13,7 +13,7 @@
  * 
  * Reference: https://github.com/mcci-catena/arduino-lmic
  *
- * Modified for Hello, LoRa!, 23. 6. 2022
+ * Modified for Hello, LoRa!, 24. 6. 2022
  *******************************************************************************/
 
 #include <lmic.h>
@@ -103,7 +103,10 @@ void onEvent (ev_t ev) {
               }
               Serial.println();
             }
-            LMIC_setLinkCheckMode(0);
+            LMIC_setLinkCheckMode(0);       // Disable link check validation
+            LMIC.dn2Dr = DR_SF9;            // TTS uses SF9 for its RX2 window.
+            LMIC_setDrTxpow(DR_SF9,14);     // Set data rate and transmit power for uplink
+            LMIC_setAdrMode(0);             // Adaptive data rate disabled
             break;
         case EV_JOIN_FAILED:
             Serial.println(F("EV_JOIN_FAILED"));
@@ -185,6 +188,7 @@ void setup() {
     LMIC_setLinkCheckMode(0);       // Disable link check validation
     LMIC.dn2Dr = DR_SF9;            // TTS uses SF9 for its RX2 window.
     LMIC_setDrTxpow(DR_SF9,14);     // Set data rate and transmit power for uplink
+    LMIC_setAdrMode(0);             // Adaptive data rate disabled
 
     LMIC_setClockError(MAX_CLOCK_ERROR * 1 / 100); 
 
