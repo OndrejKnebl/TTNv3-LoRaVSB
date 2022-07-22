@@ -53,7 +53,7 @@ const lmic_pinmap lmic_pins = {                 // Pin mapping for the Adafruit 
 
 static osjob_t sendjob;                         // Job
 
-const unsigned TX_INTERVAL = 300;               // 5 miutes
+const unsigned TX_INTERVAL = 300;               // 5 minutes
 
 void onEvent (ev_t ev) {
     switch(ev) {
