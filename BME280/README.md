@@ -6,6 +6,7 @@ Programs for temperature, humidity and pressure sensor using Adafruit Feather M0
 
 ### Programs
 - Current measured values
+- Averages of measured values
 
 ### Activation
 - OTAA
