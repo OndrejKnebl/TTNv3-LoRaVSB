@@ -1,4 +1,4 @@
-# TTS Network Time
+# TTS Network Time - will be added
 
 Program for requesting the TTS Network Time (UTC) and converting it to different times using Adafruit Feather M0 RFM95 LoRa Radio.
 
@@ -17,6 +17,7 @@ Program for requesting the TTS Network Time (UTC) and converting it to different
 - OTAA
 
 ### More information
+- About TTS Network Time setup on the site: https://lora.vsb.cz/index.php/tts-network-time/
 - About Adafruit Feather M0 with RFM95 LoRa Radio – 900 MHz setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-m0/
 
 ## Reference
