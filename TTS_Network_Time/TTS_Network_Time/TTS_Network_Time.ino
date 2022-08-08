@@ -12,7 +12,7 @@
  *
  * Reference: https://github.com/mcci-catena/arduino-lmic
  *
- * Modified for TTS Network Time, 2. 8. 2022
+ * Modified for TTS Network Time, 8. 8. 2022
  *******************************************************************************/
 
 #include <lmic.h>
@@ -29,6 +29,8 @@ unsigned int countSeconds = 1;                // Counting seconds
 unsigned int sendDataEvery = 600;             // Send data every 10 minutes
 
 uint32_t user_time_correction = -18;          // User time correction in seconds
+int countSends = 0;                           // Counting sends
+int requestTimeEverySend = 10;                // Request time every 10 send
 
 uint32_t userUTCTime;                         // Seconds since the UTC epoch
 
@@ -250,9 +252,14 @@ void printDateTime(Timezone tz, time_t utc, const char *descr){
 
 void do_send(osjob_t* j) {
     if (!(LMIC.opmode & OP_TXRXPEND)){
-        LMIC_requestNetworkTime(user_request_network_time_callback, &userUTCTime);    // Schedule a network time request at the next possible time
-
-        LMIC_setTxData2(1, mydata, sizeof(mydata)-1, 0);                              // Prepare upstream data transmission at the next possible time.
+        
+        if(countSends % requestTimeEverySend == 0){
+            LMIC_requestNetworkTime(user_request_network_time_callback, &userUTCTime);      // Schedule a network time request at the next possible time
+            countSends = 0;
+        }
+        countSends++;
+        
+        LMIC_setTxData2(1, mydata, sizeof(mydata)-1, 0);                                    // Prepare upstream data transmission at the next possible time.
     }
 }
 
