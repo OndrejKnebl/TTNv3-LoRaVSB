@@ -1,4 +1,4 @@
-# Hello, LoRa! - will be added
+# Hello, LoRa!
 
 Program for sending "Hello, LoRa!" to The Things Stack using Adafruit Feather M0 with RFM95 LoRa Radio – 900 MHz. This program is for setup testing.
 
