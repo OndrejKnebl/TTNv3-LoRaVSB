@@ -1,4 +1,4 @@
-# LED control via downlinks - will be added
+# LED control via downlinks
 Program for controlling the built-in LED via downlinks using the Adafruit Feather 32u4 RFM95 LoRa Radio.
 
 ## Note
