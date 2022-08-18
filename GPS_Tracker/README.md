@@ -1,4 +1,4 @@
-# GPS Tracker - will be added soon
+# GPS Tracker
 
 Program for GPS tracker using Adafruit Feather 32u4 LoRa Radio and NEO-6M. You can use this tracker for tracking for example your bike or suitcase. This device can be also used as TTN mapper to map The Things Network coverage. The tracker can run on battery power or be powered from USB.
 
