@@ -1,4 +1,4 @@
-# BME280 - will be added
+# BME280
 
 Programs for temperature, humidity and pressure sensor using Adafruit Feather M0 with RFM95 LoRa Radio – 900 MHz and BME280.
 
