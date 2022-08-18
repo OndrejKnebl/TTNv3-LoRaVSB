@@ -1,4 +1,4 @@
-# TTS Network Time - will be added
+# TTS Network Time
 
 Program for requesting the TTS Network Time (UTC) and converting it to different times using Adafruit Feather M0 RFM95 LoRa Radio.
 
