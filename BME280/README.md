@@ -18,6 +18,7 @@ We have prepared four programs for measuring temperature, humidity and pressure.
 ### More information
 - About sensor and sensor assembly on the site: https://lora.vsb.cz/index.php/temperature-humidity-and-pressure-sensor-bme280/
 - About Adafruit Feather M0 with RFM95 LoRa Radio – 900 MHz setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-m0/
+- About Cayenne LPP on the site: https://lora.vsb.cz/index.php/cayenne-lpp/
 
 ## Reference
 - https://github.com/mcci-catena/arduino-lmic
