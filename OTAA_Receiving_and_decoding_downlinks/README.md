@@ -9,7 +9,7 @@ Don’t send more than 10 downlinks per day per node (see Fair Use Policy below)
 - OTAA
 
 ### More information
-- Downlink reception and Cayenne LPP decoding on the site:
+- About downlink reception and Cayenne LPP decoding on the site:
 - About Adafruit Feather M0 with RFM95 LoRa Radio – 900 MHz setup on the site: https://lora.vsb.cz/index.php/adafruit-feather-m0/
 
 ## Reference
