@@ -14,3 +14,4 @@ Don’t send more than 10 downlinks per day per node (see Fair Use Policy below)
 
 ## Reference
 - https://github.com/mcci-catena/arduino-lmic
+- https://github.com/ElectronicCats/CayenneLPP
