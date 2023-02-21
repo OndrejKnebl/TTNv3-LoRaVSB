@@ -13,7 +13,7 @@
  * 
  * Reference: https://github.com/mcci-catena/arduino-lmic
  *
- * Modified for Receiving and decoding downlinks, 17. 2. 2023
+ * Modified for Receiving and decoding downlinks, 21. 2. 2023
  *******************************************************************************/
 
 #include <lmic.h>
