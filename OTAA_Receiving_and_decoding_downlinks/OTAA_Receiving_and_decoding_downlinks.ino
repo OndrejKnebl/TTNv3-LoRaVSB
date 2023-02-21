@@ -126,10 +126,9 @@ void onEvent (ev_t ev) {
               Serial.println(F(" bytes of payload"));
 
               Serial.print(F("My Data: "));
-              for (int i = LMIC.dataBeg; i < LMIC.dataBeg+LMIC.dataLen; i++){
-                Serial.print(LMIC.frame[i], HEX);
+              for (int i = LMIC.dataBeg; i < LMIC.dataBeg+LMIC.dataLen; i++)
+                printHex2(LMIC.frame[i]);
 
-              }
               Serial.println();
 
               DynamicJsonDocument jsonBuffer(1024);
